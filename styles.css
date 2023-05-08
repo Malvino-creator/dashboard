@@ -15,8 +15,8 @@
     width: 50%;
     max-width: 450;
     position: absolute;
-    top: 40%;
-    left: 30%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     background: #fff;
     padding: 50px 60px 70px;
@@ -29,4 +29,30 @@
     margin-bottom: 60px;
     position: relative;
     color: #3c00a0;
+}
+.form-box h1::after{
+    content: '';
+    border-radius: 6px;
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    bottom: -12px;
+    left: 50%;
+    transform: translate(-50%);
+    background: #3c00a0;
+
+}
+.input-field{
+    background: #eaeaea;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
 }
