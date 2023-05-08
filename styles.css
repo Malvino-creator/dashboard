@@ -11,3 +11,22 @@
     background-size: cover;
     position: relative;
 }
+.form-box{
+    width: 40%;
+    max-width: 450;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 50px 60px 70px;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    position: relative;
+    color: #3c00a0;
+}
