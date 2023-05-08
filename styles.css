@@ -58,5 +58,14 @@ input{
 }
 input-field i{
     margin-left: 15px;
-    color: #999;
+    color:#999;
+
+}
+form p{
+    text-align: left;
+    font-size: 13px;
+}
+form p a {
+    text-decoration: none;
+    color: #3c00a0;
 }
